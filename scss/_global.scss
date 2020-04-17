@@ -13,6 +13,9 @@ body {
 .background-pink {
   background: $pink;
 }
+.pink {
+  color: $pink;
+}
 .h1,
 .h2,
 .h3,
@@ -57,4 +60,42 @@ h6 {
 
 p {
   font-size: 14px;
+}
+p.large-copy {
+  font-size: 16px;
+}
+
+p.copy {
+  font-size: 14px;
+}
+
+.caption {
+  font-size: 12px;
+}
+
+@mixin text-link--large {
+  font-size: 16px;
+}
+
+.text-link--small {
+  font-size: 14px;
+}
+
+label,
+.label {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.label-large {
+  font-size: 16px;
+}
+
+.wrapper .container {
+  border-radius: 6px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+
+  @media (min-width: 1400px) {
+    margin: 50px auto;
+  }
 }
