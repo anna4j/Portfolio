@@ -12,12 +12,9 @@ body {
 body {
   background: #ffeadb;
   overflow-x: hidden;
-}
-
-@media (min-width: 768px) {
-  body {
+  /*@media (min-width: 768px) {
     overflow-y: hidden;
-  }
+  }*/
 }
 
 .background-pink {
@@ -126,4 +123,19 @@ label,
 .sidebar figcaption small {
   font-size: 48px;
   font-weight: inherit;
+}
+
+.main-menu li {
+  border-bottom: 1px solid #470031;
+  padding: 15px 0;
+  transition: 0.3s ease-out;
+}
+
+.main-menu li a {
+  font-size: 16px;
+  transition: inherit;
+}
+
+.main-menu li a i {
+  margin: 0 12px 0 18px;
 }
