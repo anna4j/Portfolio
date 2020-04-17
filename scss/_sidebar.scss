@@ -1,0 +1,17 @@
+.sidebar {
+  padding: 32px;
+  img: {
+    box-shadow: 0 1px 32px rgba(20, 23, 26, 0.12);
+  }
+  figcaption {
+    font-weight: 600;
+    font-size: 48px;
+    margin-top: 32px;
+    line-height: 1;
+
+    small {
+      font-size: 48px;
+      font-weight: inherit;
+    }
+  }
+}

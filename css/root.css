@@ -4,3 +4,85 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-bare/blob/master/LICENSE)
  */
 
+html,
+body {
+  font-family: 'Open Sans, sans-serif';
+}
+
+body {
+  background: #ffeadb;
+  overflow-x: hidden;
+}
+
+@media (min-width: 768px) {
+  body {
+    overflow-y: hidden;
+  }
+}
+
+.background-pink {
+  background: #ff9898;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+h6 {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+p {
+  font-size: 14px;
+}
+
+.sidebar {
+  padding: 32px;
+  img-box-shadow: 0 1px 32px rgba(20, 23, 26, 0.12);
+}
+
+.sidebar figcaption {
+  font-weight: 600;
+  font-size: 48px;
+  margin-top: 32px;
+  line-height: 1;
+}
+
+.sidebar figcaption small {
+  font-size: 48px;
+  font-weight: inherit;
+}
