@@ -149,18 +149,33 @@ label,
   background-color: #ffeadb;
 }
 
-p:last-of-type {
+.card p:last-of-type {
   margin-bottom: 35px;
 }
 
-.title {
+.card .title {
   color: #630846;
 }
 
-.title i {
+.card .title i {
   margin-right: 5px;
+  color: #ff9898;
 }
 
-.interests {
+.card .interests {
   font-size: 30px;
+}
+
+.card--stats {
+  padding: 15px 10px;
+}
+
+.card--stats i {
+  font-size: 30px;
+  color: #ff9898;
+}
+
+.card--stats p {
+  font-size: 12px;
+  color: #ff9898;
 }
