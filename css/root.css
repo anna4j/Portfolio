@@ -139,3 +139,28 @@ label,
 .main-menu li a i {
   margin: 0 12px 0 18px;
 }
+
+.card {
+  padding: 25px;
+  border-color: transparent;
+  box-shadow: 0 1px 32px rgba(20, 23, 26, 0.12);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  border-radius: 3px;
+  background-color: #ffeadb;
+}
+
+p:last-of-type {
+  margin-bottom: 35px;
+}
+
+.title {
+  color: #630846;
+}
+
+.title i {
+  margin-right: 5px;
+}
+
+.interests {
+  font-size: 30px;
+}
