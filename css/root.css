@@ -10,7 +10,7 @@ body {
 }
 
 body {
-  background: #fff1e9;
+  background: white;
   overflow-x: hidden;
   /*@media (min-width: 768px) {
     overflow-y: hidden;
@@ -158,7 +158,9 @@ label,
 }
 
 .card .title {
-  color: #ff9898;
+  color: #470031;
+  font-size: 26px;
+  font-family: 'Sacramento', cursive;
 }
 
 .card .title i {
