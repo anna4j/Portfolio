@@ -151,7 +151,7 @@ label,
 }
 
 .card p {
-  color: #470031;
+  color: #610a45;
 }
 
 .card p:last-of-type {
@@ -159,7 +159,7 @@ label,
 }
 
 .card .title {
-  color: #470031;
+  color: #610a45;
   font-size: 26px;
   font-family: 'Sacramento', cursive;
 }
@@ -171,7 +171,7 @@ label,
 }
 
 .card .interests h6 {
-  color: #470031;
+  color: #610a45;
 }
 
 .card .interests .col-md-2:hover {
@@ -198,7 +198,7 @@ label,
 }
 
 .card--stats h5 {
-  color: #470031;
+  color: #610a45;
 }
 
 .sideline {
