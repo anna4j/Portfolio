@@ -1,0 +1,6 @@
+/*!
+ * Start Bootstrap - Bare v4.2.1 (https://startbootstrap.com/template-overviews/bare)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-bare/blob/master/LICENSE)
+ */
+
