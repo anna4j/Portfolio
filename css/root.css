@@ -149,21 +149,35 @@ label,
   background-color: #ffeadb;
 }
 
+.card p {
+  color: #470031;
+}
+
 .card p:last-of-type {
   margin-bottom: 35px;
 }
 
 .card .title {
-  color: #630846;
+  color: #ff9898;
 }
 
 .card .title i {
   margin-right: 5px;
   color: #ff9898;
+  padding-bottom: 15px;
 }
 
-.card .interests {
+.card .interests h6 {
+  color: #470031;
+}
+
+.card .interests .col-md-2:hover {
+  background: #fafafa;
+}
+
+.card .interests i {
   font-size: 30px;
+  color: #ff9898;
 }
 
 .card--stats {
@@ -178,4 +192,32 @@ label,
 .card--stats p {
   font-size: 12px;
   color: #ff9898;
+}
+
+.card--stats h5 {
+  color: #470031;
+}
+
+.sideline {
+  overflow: hidden;
+}
+
+.sideline:before, .sideline:after {
+  background-color: #ff9898;
+  content: '';
+  display: inline-block;
+  height: 2px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.sideline:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.sideline:after {
+  left: 0.5em;
+  margin-right: -50%;
 }
