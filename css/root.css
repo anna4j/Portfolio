@@ -283,3 +283,43 @@ label,
     transform: translateX(0);
   }
 }
+
+.timeline .job-date {
+  font-size: 14px;
+}
+
+.timeline h6 {
+  color: #610a45;
+}
+
+@media (min-width: 992px) {
+  .timeline .job-date {
+    text-align: right;
+    position: relative;
+  }
+  .timeline .job-date:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 150%;
+    background-color: #610a45;
+    z-index: 3;
+    margin-top: 6px;
+  }
+  .timeline .job-description {
+    position: relative;
+  }
+  .timeline .job-description:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 100%;
+    background-color: #ff9898;
+    z-index: 2;
+  }
+}
