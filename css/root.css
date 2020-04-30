@@ -90,7 +90,8 @@ p.copy {
 label,
 .label {
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 900;
+  color: #610a45;
 }
 
 .label-large {
@@ -361,4 +362,28 @@ label,
   line-height: 1;
   color: #610a45;
   font-family: 'Open Sans, sans-serif';
+}
+
+.btn {
+  background-color: #ff9898;
+  border-radius: 21px;
+  border: 0;
+  display: inline-block;
+  cursor: pointer;
+  color: #610a45;
+  font-family: 'Open Sans, sans-serif';
+  font-size: 17px;
+  font-weight: bold;
+  padding: 16px 31px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  color: #ff9898;
+  background-color: #610a45;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
 }
