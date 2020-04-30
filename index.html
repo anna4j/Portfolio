@@ -247,15 +247,84 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-sm-12 col-md-7 col-lg-9 content portfolio text-center active" datasimple-bar
+
+        <div class="col-12 col-sm-12 col-md-7 col-lg-9 card content portfolio text-center active" datasimple-bar
           id="portfolio">
-          <ul class="filter-controls list-unstyled-list-inline">
+          <ul class="filter-controls list-unstyled list-inline">
             <li data-filter="all" class="list-inline-item active"><i class="fas fa-list-ul"></i>All Items</li>
             <li data-filter="1" class="list-inline-item"><i class="fas fa-brain"></i>Machine Learning</li>
             <li data-filter="2" class="list-inline-item"><i class="fas fa-code"></i>Web Development</li>
-            <li data-filter="3" class="list-inline-item"><i class="fas fa-paint-brush"></i>Painting</li>
           </ul>
+
+
+          <div class="row filter-container mt-3">
+
+            <div class="col-md-3 filter-item" data-category="1" data-sort="value">
+              <figure class="figure mb-5"><a
+                  href="https://github.com/anna4j/Python-and-Machine-Learning/tree/master/House%20price%20predictor"
+                  target="_blank" class="popup-link"><img class="img-fluid" src="img\house price.png" alt="House"></a>
+                <figcaption class="font-weight-bold figure-caption">House Price Prediction</figcaption>
+
+              </figure>
+            </div>
+            <div class="col-md-3 filter-item" data-category="1" data-sort="value">
+              <figure class="figure mb-5"><a
+                  href="https://github.com/anna4j/Data-Science-Hackathon/tree/master/ML%20Models" target="_blank"
+                  class="popup-link"><img class="img-fluid" src="img\insurance.jpg" alt="Insurance"></a>
+                <figcaption class="font-weight-bold figure-caption">Insurance Premium Prediction</figcaption>
+
+              </figure>
+            </div>
+            <div data-category="1" data-sort="value">
+              <figure class="figure mb-5"><a
+                  href="https://github.com/anna4j/Deep-Learning-projects/tree/master/Text%20Classification"
+                  target="_blank" class="popup-link"><img class="img-fluid" src="img\spam-filter.png"
+                    alt="Spam detection"></a>
+                <figcaption class="font-weight-bold figure-caption">Spam Detection</figcaption>
+
+              </figure>
+            </div>
+            <div class="col-md-3 filter-item" data-category="1" data-sort="value">
+              <figure class="figure mb-5"><a
+                  href="https://github.com/anna4j/Python-and-Machine-Learning/tree/master/Wine%20Quality%20Classifier"
+                  target="_blank" class="popup-link"><img class="img-fluid" src="img\wine.jpg"
+                    alt="wine classifier"></a>
+                <figcaption class="font-weight-bold figure-caption">Wine Quality Classifier</figcaption>
+
+              </figure>
+            </div>
+            <div class="col-md-3 filter-item" data-category="1" data-sort="value">
+              <figure class="figure mb-5"><a
+                  href="https://github.com/anna4j/Deep-Learning-projects/tree/master/Image%20Classification"
+                  target="_blank" class="popup-link"><img class="img-fluid" src="img\XRay.jpg" alt="bone fracture"></a>
+                <figcaption class="font-weight-bold figure-caption">Fracture Prediction</figcaption>
+
+              </figure>
+            </div>
+            <div class="col-md-3 filter-item" data-category="2" data-sort="value">
+              <figure class="figure mb-5"><a href="https://github.com/anna4j/theTechie" target="_blank"
+                  class="popup-link"><img class="img-fluid" src="img\techie.jpg" alt="social networking"></a>
+                <figcaption class="font-weight-bold figure-caption">Social Network App</figcaption>
+
+              </figure>
+            </div>
+            <div class="col-md-3 filter-item" data-category="2" data-sort="value">
+              <figure class="figure mb-5">
+                <a href="https://anna4j.github.io/Resume/" target="_blank">
+                  <img class="img-fluid" src="img\resume.png" alt="css style"></a>
+                <figcaption class="font-weight-bold figure-caption">CSS Styling</figcaption>
+
+              </figure>
+            </div>
+          </div>
+
+
+
+
+
+
         </div>
+
 
 
 
@@ -275,6 +344,15 @@
   <script src="vendor/simplebar/dist/simplebar.min.js"></script>
   <script src="vendor/filterizr/dist/jquery.filterizr.min.js"></script>
   <script src="js/main.min.js"></script>
+  <script>
+    // Filterizr init for portfolio page.
+    var options = {
+      /* check next step for available options */
+    };
+
+    // Adjust the CSS selector to match the container where you set up your image gallery
+    var filterizr = new Filterizr('.filter-container', options);
+  </script>
 </body>
 
 </html>

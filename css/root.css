@@ -323,3 +323,42 @@ label,
     z-index: 2;
   }
 }
+
+.filter-controls li {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  padding: 7px 11px;
+  background: white;
+  color: #610a45;
+  margin-right: 0;
+  margin-bottom: 0.5rem;
+  transition: .3s ease-in;
+}
+
+.filter-controls li.active {
+  background: #ff9898;
+  color: #610a45;
+}
+
+@media (max-width: 768px) {
+  .filter-controls li {
+    display: block;
+    margin-right: 0.5rem;
+  }
+}
+
+.filter-controls li:hover, .filter-controls li:focus, .filter-controls li:active {
+  background-color: #ffeadb;
+  color: #ff9898;
+  cursor: pointer;
+}
+
+.filter-controls li i {
+  margin-right: 12px;
+}
+
+.figure-caption {
+  margin-top: 27px;
+  line-height: 1;
+  color: #610a45;
+  font-family: 'Open Sans, sans-serif';
+}

@@ -1,0 +1,41 @@
+.filter-controls {
+	
+	li {
+		box-shadow: 0 1px 2px rgba(0,0,0,.1);
+		padding: 7px 11px;
+        background: white;
+        color: $dark;
+		margin-right: 0;
+		margin-bottom: 0.5rem;
+		transition: .3s ease-in;
+
+		&.active {
+			background: $pink;
+			color: $dark;
+        }
+        
+        
+
+		@media ( max-width: 768px ) {
+			display: block;
+			margin-right: 0.5rem;
+		}
+
+		&:hover,
+		&:focus,
+		&:active {
+			background-color: #ffeadb;
+			color: #ff9898;
+			cursor: pointer;
+        }
+        i{
+            margin-right:  12px ;
+        }
+	}
+}
+.figure-caption {
+    margin-top: 27px;        
+    line-height: 1;
+    color: $dark;
+    font-family: 'Open Sans, sans-serif';
+}
